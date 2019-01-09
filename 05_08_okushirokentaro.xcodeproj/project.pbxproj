@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D44C78DF21E22F440009EC05 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C78DE21E22F440009EC05 /* TimerViewController.swift */; };
+		D44C78E121E4B4B90009EC05 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C78E021E4B4B90009EC05 /* FinishViewController.swift */; };
+		D44C78E521E4EE320009EC05 /* himei_kyaa_reverb.wav in Resources */ = {isa = PBXBuildFile; fileRef = D44C78E421E4EE320009EC05 /* himei_kyaa_reverb.wav */; };
 		D4D0392021E0D3420088512E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D0391F21E0D3420088512E /* AppDelegate.swift */; };
 		D4D0392221E0D3420088512E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D0392121E0D3420088512E /* ViewController.swift */; };
 		D4D0392521E0D3420088512E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D0392321E0D3420088512E /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D44C78DE21E22F440009EC05 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		D44C78E021E4B4B90009EC05 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		D44C78E421E4EE320009EC05 /* himei_kyaa_reverb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = himei_kyaa_reverb.wav; sourceTree = "<group>"; };
 		D4D0391C21E0D3420088512E /* 05_08_okushirokentaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 05_08_okushirokentaro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D0391F21E0D3420088512E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4D0392121E0D3420088512E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				D4D0392621E0D3430088512E /* Assets.xcassets */,
 				D4D0392821E0D3430088512E /* LaunchScreen.storyboard */,
 				D4D0392B21E0D3430088512E /* Info.plist */,
+				D44C78DE21E22F440009EC05 /* TimerViewController.swift */,
+				D44C78E021E4B4B90009EC05 /* FinishViewController.swift */,
+				D44C78E421E4EE320009EC05 /* himei_kyaa_reverb.wav */,
 			);
 			path = 05_08_okushirokentaro;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 				D4D0392A21E0D3430088512E /* LaunchScreen.storyboard in Resources */,
 				D4D0392721E0D3430088512E /* Assets.xcassets in Resources */,
 				D4D0392521E0D3420088512E /* Main.storyboard in Resources */,
+				D44C78E521E4EE320009EC05 /* himei_kyaa_reverb.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D0392221E0D3420088512E /* ViewController.swift in Sources */,
+				D44C78E121E4B4B90009EC05 /* FinishViewController.swift in Sources */,
+				D44C78DF21E22F440009EC05 /* TimerViewController.swift in Sources */,
 				D4D0392021E0D3420088512E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
